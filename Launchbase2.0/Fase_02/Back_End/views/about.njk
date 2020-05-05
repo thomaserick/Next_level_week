@@ -5,14 +5,16 @@
   {%block content %}
 
     <div id="wrapper">
-      <img src="./img/geek.jpg" alt="Thomas Erick"/>
-      <h1>Thomas Erick</h1>
-      <h2>Desenvolvedor - Web</h2>
-      <p>Full Stack</p>
+      <img src="{{about.avatar_url}}" alt="{{about.name}}"/>
+      <h1>{{about.name}}</h1>
+      <h2>{{about.role}}</h2>
+      <p>{{about.description}}</p>
     </div>
     <div id="links-footer" class="links">
-      <a href="">Github</a>
-      <a href="">Linkedin</a>
+      {% for link in about.links %}
+        <a href="{{link.url}}" target="_blank">{{link.name}}</a>
+
+      {% endfor %}
     </div>
 
     {% endblock%}
