@@ -4,6 +4,7 @@ module.exports = [
     title: "Formulário animado com js e css",
     duration: "57 min",
     price: "Free",
+    featured: true,
   },
   {
     id: "HN1UjzRSdBk",
@@ -22,6 +23,7 @@ module.exports = [
     title: "O que é API? REST e RESTful? | Mayk Brito",
     duration: "33 min",
     price: "Free",
+    featured: true,
   },
   {
     id: "GSqR2i-Pq6o",
@@ -35,5 +37,6 @@ module.exports = [
       "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito",
     duration: "33 min",
     price: "Free",
+    featured: true,
   },
 ];
