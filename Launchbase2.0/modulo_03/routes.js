@@ -10,7 +10,7 @@ routes.get("/instructors", (req, res) => {
 });
 
 routes.post("/instructors", (req, res) => {
-  return res.send("Recebido");
+  return res.send(req.body);
 });
 
 routes.get("/instructors/create", (req, res) => {

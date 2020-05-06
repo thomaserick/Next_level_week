@@ -6,6 +6,8 @@ const server = express();
 
 //midlewere -> Intercepta o ponto a a ponto b
 server.use(express.static("public"));
+//Req body
+server.use(express.urlencoded({ extended: true }));
 server.use(routes);
 
 server.set("view engine", "njk");

@@ -112,7 +112,7 @@ header {
 .details .item div:nth-child(1) {
   font-size: 14px;
   line-height: 24px;
-  color:#777
+  color: #777;
   letter-spacing: 0.7px;
   font-weight: normal;
 }
