@@ -1,1 +1,18 @@
-{"avatar_url":"http://132132","name":"Jaqueline F M de Camargo","birth":"2020-05-05","gender":"on","services":"312321132"}
+{
+  "instructors": [
+    {
+      "avatar_url": "http://132132",
+      "name": "Thomas",
+      "birth": "2020-05-01",
+      "gender": "on",
+      "services": "Teste"
+    },
+    {
+      "avatar_url": "http://132132",
+      "name": "Joao",
+      "birth": "2020-05-01",
+      "gender": "on",
+      "services": "Teste"
+    }
+  ]
+}
