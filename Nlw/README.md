@@ -21,6 +21,10 @@
   - cria o arquivo de config typescript
 - npm install ts-node-dev -D
   - Watch de alteracao
+- npm install knex
+  - engine banco de dados
+- npm install sqlite3
+  - usa com Knex
 
 -**Comandos**
 
@@ -36,6 +40,12 @@
 
 - npm start
   - inicia a aplicacao
+
+### Adendo
+
+-//Request Param: Parametros que vem na propria rota que identifica um recurso
+-//Query Param> Parametros que vem na propria rota geralmente opcionais para filtros,paginacão
+-//Request Body: Parametros para criacao/atualizacao de informações
 
 **Helpers**
 
