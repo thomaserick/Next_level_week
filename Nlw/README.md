@@ -7,7 +7,7 @@
 - NodeJs
   - choco install nodejs-lts
 
-### Dependencias
+### Dependencias BackEnd(NodeJs)
 
 - npm install express
   - micro frameword lidar com Rotas
@@ -22,10 +22,23 @@
 - npm install ts-node-dev -D
   - Watch de alteracao
 
--_Comandos_
+-**Comandos**
 
 - npx ts-node-dev src/server.ts
   - executa o servidor
   - adicionar no script do packge.json
 
-### Adendo
+### Dependencias FrontEnd(ReactJs)
+
+- npx create-react-app web --template=typescript
+
+-**Comandos**
+
+- npm start
+  - inicia a aplicacao
+
+**Helpers**
+
+- [ReactJs](https://pt-br.reactjs.org/)
+
+- [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
