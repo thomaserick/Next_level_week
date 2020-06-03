@@ -19,5 +19,13 @@
   - typeScrip
 - npm tsc --init
   - cria o arquivo de config typescript
+- npm install ts-node-dev -D
+  - Watch de alteracao
+
+-_Comandos_
+
+- npx ts-node-dev src/server.ts
+  - executa o servidor
+  - adicionar no script do packge.json
 
 ### Adendo
