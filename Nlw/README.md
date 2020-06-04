@@ -43,6 +43,18 @@
 
 ### Adendo
 
+- Padrao comunidade Controller
+- index
+  - Listagem
+- show
+  - unico registro
+- create
+  - Cria
+- update
+  - Update
+- delete
+  -Deletar
+
 -//Request Param: Parametros que vem na propria rota que identifica um recurso
 -//Query Param> Parametros que vem na propria rota geralmente opcionais para filtros,paginacão
 -//Request Body: Parametros para criacao/atualizacao de informações
