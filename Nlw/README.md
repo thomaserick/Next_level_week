@@ -27,6 +27,8 @@
   - usa com Knex
 - npx knex migrate:latest --knexfile knexfile.ts migrate:latest
   - Roda as migration do BD
+- npm install cors
+  - CORS
 
 * npx ts-node-dev src/server.ts
   - executa o servidor

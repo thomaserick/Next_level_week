@@ -3,7 +3,22 @@ import knex from "../database/connection";
 
 class PointController {
   async index(req: Request, res: Response) {
-    const point = await knex("point");
+    //cidades,uf,items (Query Params)
+
+    const { city, uf, items } = req.query;
+    const parsedItems = String(items)
+      .split(",")
+      .map((item) => Number(item.trim()));
+
+    const points = await knex("point")
+      .join("point_items", "point.id", "=", "point_items.point_id")
+      .whereIn("point_items.items_id", parsedItems)
+      .where("city", String(city))
+      .where("uf", String(uf))
+      .distinct()
+      .select("point.*");
+
+    return res.json(points);
   }
 
   async show(req: Request, res: Response) {
@@ -44,7 +59,8 @@ class PointController {
     const trx = await knex.transaction();
 
     const point = {
-      image: "Image-default",
+      image:
+        "https://images.unsplash.com/photo-1556767576-5ec41e3239ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
       name,
       email,
       phone,
@@ -67,6 +83,8 @@ class PointController {
     });
 
     await trx("point_items").insert(pointItems);
+
+    await trx.commit();
 
     return res.json({
       id: point_id,
