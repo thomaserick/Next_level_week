@@ -25,10 +25,10 @@
   - engine banco de dados
 - npm install sqlite3
   - usa com Knex
+- npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+  - Roda as migration do BD
 
--**Comandos**
-
-- npx ts-node-dev src/server.ts
+* npx ts-node-dev src/server.ts
   - executa o servidor
   - adicionar no script do packge.json
 
