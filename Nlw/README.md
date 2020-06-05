@@ -38,6 +38,11 @@
 
 - npx create-react-app web --template=typescript
 
+- npm install react-icons
+  - Icones Fontes de icones
+- npm install react-router-dom
+  -
+
 -**Comandos**
 
 - npm start
