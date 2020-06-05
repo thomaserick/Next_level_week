@@ -44,6 +44,8 @@
   - Rotas SPA
 - npm install leaflet react-leaflet
   - Maps
+- npm install axios
+  - http
 
 -**Comandos**
 
