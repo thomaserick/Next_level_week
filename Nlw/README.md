@@ -41,7 +41,9 @@
 - npm install react-icons
   - Icones Fontes de icones
 - npm install react-router-dom
-  -
+  - Rotas SPA
+- npm install leaflet react-leaflet
+  - Maps
 
 -**Comandos**
 
