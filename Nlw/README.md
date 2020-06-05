@@ -56,6 +56,8 @@
   - Update
 - delete
   -Deletar
+- JSX
+  - Sintaxe de XML dentro do Javascript
 
 -//Request Param: Parametros que vem na propria rota que identifica um recurso
 -//Query Param> Parametros que vem na propria rota geralmente opcionais para filtros,paginacão
