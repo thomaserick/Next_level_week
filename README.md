@@ -34,6 +34,9 @@
 - npx ts-node-dev src/server.ts
   - executa o servidor
   - adicionar no script do packge.json
+- npm install celebrate
+  - Validacao( integracao com Express)
+    -@types/hapi\_\_joi -D
 
 ### Dependencias FrontEnd(ReactJs)
 
