@@ -31,8 +31,7 @@
   - CORS
 - npm install multer
   - Upload de imagens
-
-* npx ts-node-dev src/server.ts
+- npx ts-node-dev src/server.ts
   - executa o servidor
   - adicionar no script do packge.json
 
@@ -48,6 +47,7 @@
   - Maps
 - npm install axios
   - http
+- npm install react-dropzone
 
 -**Comandos**
 
