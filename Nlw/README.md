@@ -29,6 +29,8 @@
   - Roda as migration do BD
 - npm install cors
   - CORS
+- npm install multer
+  - Upload de imagens
 
 * npx ts-node-dev src/server.ts
   - executa o servidor
